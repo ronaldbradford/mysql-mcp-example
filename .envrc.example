@@ -1,0 +1,7 @@
+DB_USER=mcp
+DB_PASSWD='Pick@Strong.Password'
+DB_HOST=localhost
+DB_PORT=3306
+DB_NAME=imdb
+export MYSQL_DSN="${DB_USER}:${DB_PASSWD}@tcp(${DB_HOST}:${DB_PORT})/${DB_NAME}?parseTime=true"
+alias my="mysql -u${DB_USER} -p${DB_PASSWD} -h${DB_HOST} -P${DB_PORT} ${DB_NAME} $*"

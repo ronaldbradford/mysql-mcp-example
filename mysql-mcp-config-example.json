@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "mysql": {
+      "command": "/opt/homebrew/bin/mysql-mcp-server",
+      "env": {
+        "MYSQL_DSN": "${MYSQL_DSN}",
+        "MYSQL_MAX_ROWS": "1000"
+      }
+    }
+  }
+}
