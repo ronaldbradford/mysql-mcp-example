@@ -13,4 +13,12 @@ This example does not work without first having:
 
 ## Lessons
 
-- [Lesson 1 - Installation and Configuration](INSTALL.md)
+- [Lesson 1 - Installation and Configuration](INSTALL.md) One and Done instructions
+- [Lesson 2 - Validate your MySQL access in Claude](VALIDATE.md)
+ - Checkout the generated ERD and [Code](ERD.md) you can adjust at [Mermaid](https://mermaid.live/).
+ ![IMDb ERD Diagram](images/mermaid-diagram.png)
+- [Lesson 3 - Querying Data](QUERY.md)
+- [Lesson 4 - Visualizing Data](VISUALIZE.md)
+- [Table Meta Data](META.md)
+- [Using the API](API.md)
+- [Leveraging the API](USING-API.md)

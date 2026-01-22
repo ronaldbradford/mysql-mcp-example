@@ -43,4 +43,8 @@ Prompt `what are the tables in imdb?`
 
 Prompt `can you produce a mermaid ER diagram of the tables.`
 
-We specified a specific format, in this case syntax compatible with [Mermaid](https://mermaid.live/). This produces the content found in [ERD.md](ERD.md)
+We specified a specific format, in this case syntax compatible with [Mermaid](https://mermaid.live/). This produces the content found in [ERD.md](ERD.md) which visually is.
+
+NOTE: `github` can render Mermaid Markdown directly, you do not actually need to create a PNG. Check out [here](https://github.com/ronaldbradford/mysql-mcp-example/blob/main/ERD.md).
+
+ ![IMDb ERD Diagram](images/mermaid-diagram.png).
