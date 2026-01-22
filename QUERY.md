@@ -125,7 +125,7 @@ LIMIT 10;
 
 Note: I attempted to run a query with GROUP BY type to get the breakdown of title types, but it timed out due to the large dataset size (44.5M rows). That's why I used SELECT DISTINCT type instead to just get the list of types.
 
-## More Query
+## Another Example Query
 
 Prompt `Give me the most recent movies that Tom Hanks starred in`
 
@@ -214,11 +214,14 @@ Here are Tom Hanks' highest-rated movies (with at least 10,000 votes):
 
 Forrest Gump remains Tom Hanks' highest-rated film, followed closely by two other masterpieces from the late 1990s: Saving Private Ryan and The Green Mile. His versatility shines through with critically acclaimed performances across drama, war films, animation, and biographical pictures.
 
+
+## Cast Away (2000)
+
 And finally, some details about a movie that requires querying multiple tables.
 
 Prompt `tell me about the movie cast away and details of the cast and crew`.
 
-## Cast Away (2000)
+
 **Movie Details:**
 
 - Runtime: 143 minutes (2 hours 23 minutes)

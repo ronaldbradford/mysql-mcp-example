@@ -21,4 +21,4 @@ Initially this query failed (due to a timeout), however it kept trying until it 
 ![Pie Chart Sampling](images/pie-chart-failure1.png)
 
 
-After the increase in the query timeout, the earlier chart was presented, as well as the comment *The sample I used earlier was quite accurate! Would you like me to create an updated pie chart with the exact numbers?
+After the increase in the query timeout, the earlier chart was presented, as well as the comment *The sample I used earlier was quite accurate! Would you like me to create an updated pie chart with the exact numbers?*
